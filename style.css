@@ -31,3 +31,27 @@
 .flying_text:hover{
   text-indent: 0;
 }
+/*Exercise3.3*/
+.block{
+  width: 100px;
+  height: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+  transition-property: width;
+  transition-duration: 2s;
+}
+.block1:hover ~.block6 {
+  width:600px;
+}
+.block2:hover ~.block6 {
+  width:600px;
+}
+.block3:hover ~.block6 {
+  width:600px;
+}
+.block4:hover ~.block6 {
+  width:600px;
+}
+.block5:hover ~.block6 {
+  width:600px;
+}
